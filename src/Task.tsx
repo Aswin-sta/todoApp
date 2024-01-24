@@ -1,5 +1,5 @@
 import React from "react";
-import { TaskComponentPropType, TaskPropType } from "./pages/types";
+import { TaskComponentPropType } from "./pages/types";
 import { Card, Form } from "react-bootstrap";
 
 const Task = ({ task, changeStatus }: TaskComponentPropType) => {
